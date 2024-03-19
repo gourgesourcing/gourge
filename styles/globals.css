@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+@layer base {
+  body {
+    overflow-x: hidden;
+    @apply tracking-wide;
+    @apply dark:bg-gray-800 bg-white dark:text-slate-200;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-bold;
+  }
+}
+
+.tgradient {
+  /** TEXT GRADIENT */
+  color: #e91e63;
+  background-image: -webkit-linear-gradient(45deg, #e91e63 38%, #312eff 67%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+
+.servGrad {
+  color: #ff5722;
+  background-image: -webkit-linear-gradient(
+    0deg,
+    #ff5722 0%,
+    #7f27ff 50%,
+    #0004ff 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+
+.heroGrad {
+  background: rgb(74, 65, 41);
+  background: -moz-radial-gradient(
+    circle,
+    rgba(74, 65, 41, 1) 100%,
+    rgba(203, 169, 82, 1) 100%
+  );
+  background: -webkit-radial-gradient(
+    circle,
+    rgba(74, 65, 41, 1) 100%,
+    rgba(203, 169, 82, 1) 100%
+  );
+  background: radial-gradient(
+    circle,
+    rgba(74, 65, 41, 1) 100%,
+    rgba(203, 169, 82, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#4a4129",endColorstr="#cba952",GradientType=1);
+}
