@@ -37,7 +37,11 @@ export default function Home() {
 
         <meta name="facebook-domain-verification" content="" />
         <link rel="manifest" href="/manifest.json" />
-        <meta name="description" content="" key="desc" />
+        <meta
+          name="description"
+          content="Elevate your style with Gourge Sourcing, the premier buying house offering high-quality readymade garments tailored to perfection for global markets. From denim to T-shirts, jackets to trousers, explore our diverse collection for men, women, boys, and girls. Experience unmatched quality, exceptional service, and a rich heritage of excellence. Join us in weaving together fashion, quality, and passion to redefine elegance. Discover Gourge Sourcing today!"
+          key="desc"
+        />
         <meta content="#ca8a04" name="theme-color" />
         <meta content="" name="position" />
         <meta name="distribution" content="Global" />
@@ -52,7 +56,7 @@ export default function Home() {
         <meta property="og:site_name" content="Gourge Sourcing" />
         <meta
           property="og:description"
-          content="We are in the Business to Change Human Outlook"
+          content="Elevate your style with Gourge Sourcing, the premier buying house offering high-quality readymade garments tailored to perfection for global markets. From denim to T-shirts, jackets to trousers, explore our diverse collection for men, women, boys, and girls. Experience unmatched quality, exceptional service, and a rich heritage of excellence. Join us in weaving together fashion, quality, and passion to redefine elegance. Discover Gourge Sourcing today!"
         />
         <meta property="og:title" content="Gourge Sourcing" />
         <meta property="og:image" content="" />
@@ -60,11 +64,14 @@ export default function Home() {
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="628" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="" />
+        <meta
+          name="twitter:site"
+          content="Gourge Sourcing - RMG, Apparel Sourcing Around the World"
+        />
         <meta name="twitter:title" content="Gourge Sourcing" />
         <meta
           name="twitter:description"
-          content="We are in the Business to Change Human Outlook"
+          content="Elevate your style with Gourge Sourcing, the premier buying house offering high-quality readymade garments tailored to perfection for global markets. From denim to T-shirts, jackets to trousers, explore our diverse collection for men, women, boys, and girls. Experience unmatched quality, exceptional service, and a rich heritage of excellence. Join us in weaving together fashion, quality, and passion to redefine elegance. Discover Gourge Sourcing today!"
         />
         <meta name="twitter:image" content="" />
         <meta name="keywords" content="" />
