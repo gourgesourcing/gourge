@@ -33,7 +33,10 @@ export default function Home() {
         />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="robots" content="follow, index" />
-        <meta name="google-site-verification" content="" />
+        <meta
+          name="google-site-verification"
+          content="xgGODtuzUrbiPwVKH6q5M2JOtVivMovI8yHWkfgM_Eo"
+        />
 
         <meta name="facebook-domain-verification" content="" />
         <link rel="manifest" href="/manifest.json" />
