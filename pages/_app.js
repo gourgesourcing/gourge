@@ -1,4 +1,4 @@
-import Script from "next/script";
+import { GoogleAnalytics } from "@next/third-parties/google";
 import { Poppins } from "next/font/google";
 import "@/styles/globals.css";
 import Navbar from "@/components/Navbar";
@@ -13,20 +13,11 @@ const inter = Poppins({
 export default function App({ Component, pageProps }) {
   return (
     <>
-      <Script src="https://www.googletagmanager.com/gtag/js?id=G-J2N8PJJ379" />
-      <Script id="google-analytics" strategy="worker">
-        {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){window.dataLayer.push(arguments);}
-          gtag('js', new Date());
-
-          gtag('config', 'G-J2N8PJJ379');
-        `}
-      </Script>
       <main className={` ${inter.className}`}>
         <Navbar />
         <Component {...pageProps} />
         <Footer />
+        <GoogleAnalytics gaId="G-NMPJQ7T4F2" />
       </main>
     </>
   );
